@@ -1,0 +1,1 @@
+Um manifesto político, talvez.
