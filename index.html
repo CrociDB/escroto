@@ -24,11 +24,63 @@
             body {
                 background-color: #EFEFEF;
             }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            h1 a {
+                font-size: 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
             
+            li {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+            }
+
+            .word-class {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .8rem;
+                padding: 2px;
+            }
+
+            .word-type {
+                font-size: .6rem;
+                padding: 4px;
+                background: #DADADA;
+            }
+
+            .word-definition-text {
+                font-size: 1.4rem;
+                display: block;
+            }
+
+            .word-definition-source {
+                text-align: right;
+                font-size: .8rem;
+                font-style: italic;
+            }
+
+            .word-etimology {
+                margin-top: -50px;
+                padding-top: 0px;
+
+                font-style: italic;
+                font-size: 1rem;
+            }   
+
             .page {
                 max-width: 1000px;
                 margin: auto;
                 padding: 10px;
+                padding-top: 0;
             }
 
             .presidente {
@@ -36,6 +88,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 100%;
+                margin-top: 20px;
             }
 
             @media only screen and (min-width: 1000px) {
@@ -50,28 +103,29 @@
     </head>
     <body>
         <div class="page">
-            <h1>es.cro.to</h1>
+            <h1>es.cro.to <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=es.cro.to%3A%20Indiv%C3%ADduo%20que%20se%20caracteriza%20por%20p%C3%A9ssimas%20qualidades%3B%20canalha%2C%20escrot%C3%A1rio%3B%20feio%2C%20malfeito%2C%20mochila%2C%20ordin%C3%A1rio%2C%20relaxado%2C%20torpe%2C%20vil."
+                data-size="large">
+                Compartilhar</a></h1>
             <p class="word-etimology">lat scrotum</p>
 
-            <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text=escroto"
-            data-size="large">
-            Compartilhar</a>
 
             <article>
-                <p class="word-definition">
-                    <span class="word-class">substantivo masculino</span>
-                    <span class="word-type">ANATOMIA</span>
-                    Bolsa musculocutânea em que estão localizados os testículos e os epidídimos.
-                </p>
-                <p class="word-definition">
-                    <span class="word-class">adjetivo</span>
-                    <span class="word-class">substatntivo masculino</span>
-                    <span class="word-type">PEJORATIVO</span>
-                    <span class="word-type">GÍRIA</span>
-                    <span class="word-type">VULGAR</span>
-                    Que ou indivíduo que se caracteriza por péssimas qualidades; canalha, escrotário; feio, malfeito, mochila, ordinário, relaxado, torpe, vil.
-                </p>
+                <ul>
+                    <li class="word-definition">
+                        <span class="word-class">substantivo masculino</span>
+                        <span class="word-type">ANATOMIA</span>
+                        <span class="word-definition-text word-strike">Bolsa musculocutânea em que estão localizados os testículos e os epidídimos.</span>
+                    </li>
+                    <li class="word-definition">
+                        <span class="word-class">adjetivo</span>
+                        <span class="word-class">substatntivo masculino</span>
+                        <span class="word-type">PEJORATIVO</span>
+                        <span class="word-type">GÍRIA</span>
+                        <span class="word-type">VULGAR</span>
+                        <span class="word-definition-text">Que ou indivíduo que se caracteriza por péssimas qualidades; canalha, escrotário; feio, malfeito, mochila, ordinário, relaxado, torpe, vil.</span>
+                    </li>
+                </ul>
                 <p class="word-definition-source">Definição do <a href="http://michaelis.uol.com.br/busca?r=0&f=0&t=0&palavra=escroto">Dicionário Michaelis.</a></p>
             </article>
             <img class="presidente" src="presidente_bolsonaro.jpg" alt="Presidente Bolsonaro">
